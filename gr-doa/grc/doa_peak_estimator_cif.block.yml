@@ -9,8 +9,7 @@ parameters:
     label: Vector Length
     dtype: int
     default: '1'
-    hide: ${ 'part' if vlen == 1 else 'none' }
-
+    
 inputs:
 -   domain: stream
     dtype: complex

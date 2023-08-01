@@ -8,11 +8,9 @@ parameters:
 -   id: vec_in
     label: Vector In
     dtype: int
-    hide: ${ 'part' if vlen == 1 else 'none' }
 -   id: vec_out
     label: Vector Out
     dtype: int
-    hide: ${ 'part' if vlen == 1 else 'none' }
 
 inputs:
 -   label: in0

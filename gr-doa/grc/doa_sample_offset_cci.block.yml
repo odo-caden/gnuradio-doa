@@ -9,7 +9,6 @@ parameters:
     label: Vector Length
     dtype: int
     default: '1'
-    hide: ${ 'part' if vector_len == 1 else 'none' }
 -   id: num_xcorr
     label: Iterations
     dtype: int

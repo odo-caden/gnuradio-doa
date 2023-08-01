@@ -9,12 +9,10 @@ parameters:
     label: Vector In Length
     dtype: int
     default: '1'
-    hide: ${ 'part' if vlen == 1 else 'none' }
 -   id: vec_len_out
     label: Vector Out Length
     dtype: int
     default: '1'
-    hide: ${ 'part' if vlen == 1 else 'none' }
 
 inputs:
 -   domain: stream

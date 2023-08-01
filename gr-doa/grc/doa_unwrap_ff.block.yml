@@ -9,7 +9,6 @@ parameters:
     label: Vector Length
     dtype: int
     default: '1'
-    hide: ${ 'part' if vlen == 1 else 'none' }
 -   id: min
     label: Min
     dtype: float

@@ -8,7 +8,6 @@ parameters:
 -   id: vector_size
     label: Vector Length
     dtype: int
-    hide: ${ 'part' if vlen == 1 else 'none' }
 -   id: max_value
     label: Max Value
     dtype: int

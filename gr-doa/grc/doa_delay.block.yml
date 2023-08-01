@@ -26,7 +26,6 @@ parameters:
     label: Vec Length
     dtype: int
     default: '1'
-    hide: ${ 'part' if vlen == 1 else 'none' }
 -   id: showports
     label: Show Msg Ports
     dtype: enum
